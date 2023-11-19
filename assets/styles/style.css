@@ -256,10 +256,21 @@
 }
 /* responsive with midea query */
 @media screen and (max-width:576px) {
-    .skill-container{
+    .skill-container, .resume-content, .fotter-container{
         flex-direction: column;
     }
     .what-i-do-description{
         padding: 0;
+    }
+    .fotter{
+        padding: 20px 20px;
+    }
+    .footer-message input[type="text"],input[type="email"], textarea{
+        width: 80%;
+    }
+}
+@media screen and (min-width:576px) and (max-width:960px) {
+    .fotter-container{
+        flex-direction: column;
     }
 }
